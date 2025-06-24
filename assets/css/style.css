@@ -26,6 +26,10 @@ body {
   transition: background 0.3s;
 }
 
+.accordion-info{
+  color: #A2BFFE;
+}
+
 .accordion-header:hover {
   background: #0056b3;
 }
