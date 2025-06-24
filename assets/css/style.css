@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 30px;
+}
+
+.accordion-container {
+  width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  padding: 15px 20px;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.accordion-header:hover {
+  background: #0056b3;
+}
+
+.accordion-panel {
+  max-height: 0;
+  overflow: hidden;
+  background: #f9f9f9;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0 20px;
+}
+
+.accordion-panel.open {
+  padding: 15px 20px;
+}
