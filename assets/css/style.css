@@ -1,3 +1,8 @@
+@font-face {
+    font-family: RalewayImport;
+    src: url(/assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
 body {
   font-family: Arial, sans-serif;
   background: #f5f5f5;
@@ -26,12 +31,17 @@ body {
   transition: background 0.3s;
 }
 
+.accordion-header:hover {
+  background: #0056b3;
+}
+
 .accordion-info{
   color: #A2BFFE;
 }
 
-.accordion-header:hover {
-  background: #0056b3;
+.accordion-header, .accordion-info{
+font-family: RalewayImport;
+    font-weight: 300;
 }
 
 .accordion-panel {
